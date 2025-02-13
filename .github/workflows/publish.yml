@@ -47,10 +47,23 @@ jobs:
       - name: Install tar
         run: sudo apt-get install tar
 
+      - name: Check if 'out' folder exists
+        run: |
+          if [ -d "./out" ]; then
+            echo "out folder exists."
+          else
+            echo "out folder does not exist."
+            exit 1
+          fi
+
+      - name: Compress 'out' folder
+        run: |
+          tar -czvf out.tar.gz ./out
+
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./out.tar.gz
 
   deploy:
     environment:
