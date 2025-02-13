@@ -42,7 +42,9 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js 🏗️
-        run: npx next build
+        run: |
+            npx next build
+            ls -a
 
       - name: Install tar
         run: sudo apt-get install tar
