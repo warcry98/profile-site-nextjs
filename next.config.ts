@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: "/",
+  basePath: "/profile-site-nextjs",
   output: "export",
   reactStrictMode: true,
   images: {
