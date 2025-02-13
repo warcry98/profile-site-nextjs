@@ -33,7 +33,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20'
-          
+
       - run: npm ci
 
       - name: Setup Pages ⚙️
@@ -43,6 +43,9 @@ jobs:
 
       - name: Build with Next.js 🏗️
         run: npx next build
+
+      - name: Install tar
+        run: sudo apt-get install tar
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
