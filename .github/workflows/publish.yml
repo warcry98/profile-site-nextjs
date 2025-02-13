@@ -52,6 +52,7 @@ jobs:
           if [ -d "./out" ]; then
             echo "out folder exists."
           else
+            ls -a
             echo "out folder does not exist."
             exit 1
           fi
