@@ -53,7 +53,7 @@ export function Content() {
                 <h1>Hi, My Name is <span className={styles.name_detail}> Wahid Sholihul Fikri</span></h1>
             </div>
             <div className={styles.desc}>
-                <p className={styles.text_desc}>Experienced DevOps Engineer and Backend Engineer with a demonstrated history of working in the information technology and services industry skilled in Python, Golang, SQL, ETL, Airflow, Kafka, Redis, Express.js, JavaScript, Next.js, Bash, Jenkins, Docker, Kubernetes, CICD and Flutter. I have expertise in developing applications from ETL, Backend, Frontend, monitoring, and deployment on-premise or in the cloud. Strong information technology professional with a Bachelor's Degree focused in Electronics and Instrumentation from Universitas Gadjah Mada (UGM).</p>
+                <p className={styles.text_desc}>Experienced DevOps Engineer and Backend Engineer with a demonstrated history of working in the information technology and services industry skilled in Python, Golang, SQL, ETL, Airflow, Kafka, Redis, Express.js, JavaScript, Next.js, Bash, Jenkins, Docker, Kubernetes, CICD and Flutter. I have expertise in developing applications from ETL, Backend, Frontend, monitoring, and deployment on-premise or in the cloud. Strong information technology professional with a Bachelor Degree focused in Electronics and Instrumentation from Universitas Gadjah Mada (UGM).</p>
             </div>
             <div className={styles.experiences_list} id='experiences'>
                 <div className={styles.experiences_item}>
