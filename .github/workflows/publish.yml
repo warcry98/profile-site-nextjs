@@ -38,7 +38,7 @@ jobs:
 
       - name: Build with Next.js 🏗️
         run: |
-            npm run deploy
+            npx next build
             ls -a
 
       - name: Install tar
