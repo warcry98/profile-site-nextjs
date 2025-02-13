@@ -1,4 +1,4 @@
-import { ArrowBigRight, Github } from 'lucide-react';
+import { ArrowBigRight } from 'lucide-react';
 import styles from './content.module.css';
 
 const item_exp_1 = [
