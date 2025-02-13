@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.name {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+.name_detail {
+    color: var(--foreground-name);
+}
+
+.experiences_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.experiences_item {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #1e81b0;
+    border-radius: 1rem;
+}
+
+.exp_detail_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp_detail_item {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0.3rem;
+}
+
+.exp_job {
+    align-self: center;
+    font-size: large;
+    font-weight: 600;
+}
+
+.exp_company {
+    align-self: center;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.exp_time {
+    align-self: center;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.exp_point {
+    justify-self: center;
+}
+
+.exp_data {
+    flex-wrap: wrap;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link_item {
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+}
+
+.github_icon {
+    width: 2rem;
+    height: 2rem;
+    stroke: currentColor;
+}
+
+.linkedin_icon {
+    width: 2rem;
+    height: 2rem;
+    fill: currentColor;
+}
+
+.skills_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60vw;
+}
+
+.skills_item {
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: blue;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+
+.desc {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    text-align: center;
+    margin-top: 2rem;
+}
